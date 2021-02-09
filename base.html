@@ -1,0 +1,43 @@
+<!-- Tempalte Inheritence -->
+<!-- base template -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title injection shows item 2.a -->
+    <title>{{title}} and stuff</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Base HTML</title>
+
+    <!-- FRONTEND ASSETS - Load stylesheets in head.  Later ones take precedence.  Overwrite Earlier. -->
+    <!-- edit CSS with Class/ID selectors in HTML https://www.htmldog.com/guides/css/intermediate/classid/-->
+    <!-- REMEMBER, Link to Stylesheet is relative to where HTML is located.  
+    If in prev subdirectory, use url_for 
+    https://stackoverflow.com/questions/17621324/relative-path-to-css-file 
+    https://stackoverflow.com/questions/16351826/link-to-flask-static-files-with-url-for-->
+    <link rel="stylesheet" type="text/css" href="/static/styles/main.css">
+    <!-- MDL Lite https://getmdl.io/started/index.html -->
+    <!-- color generator - https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=00E5FF -->
+
+
+</head>
+<body>
+
+    <!-- Fixxed Navigation Bar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp  -->
+    <!-- Content  -->
+    <h1>The Header</h1>
+    {% include 'nav.html' %}
+    {% block content %}
+    <!-- anything saved outside this block gets extended 
+    shows item 2.a -->
+    {% endblock %}
+    {% include 'footer.html' %}
+
+
+
+
+BEST PRACTICE: Load JS Scripts here.  Scripts block rendering page
+</body>
+</html>
