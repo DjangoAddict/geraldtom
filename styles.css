@@ -29,9 +29,10 @@
   min-height: auto;
 }
 
+/* images/logotailorbrands5.svg */
 /* Actual logo  */
 .portfolio-logo {
-  background: url(images/logotailorbrands5.svg) 50% no-repeat;
+  background: url(https://www.dropbox.com/s/i56ssrspeutnfiz/LogoTailorBrands5.svg?dl=0) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
