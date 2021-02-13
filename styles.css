@@ -87,10 +87,44 @@
   top: 80 px;
 }
 
-
-
-
 /* End of Social Media / Contact EDIT  */
+
+
+/* Other Social Media Edits  */
+
+.contact_and_email  {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+  top: 0px;
+}
+
+.contact_and_email a {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.social_media.social_media_border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: unset;
+}
+
+.newDiv.social_media i {
+  left: unset;
+}
+.newDiv.social_media {
+  left: 0;
+}
+
+/* End Social Media Edits pt2  */
+
+
+
 
 .is-compact .portfolio-logo {
   height: 90px;
