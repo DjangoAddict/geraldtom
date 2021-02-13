@@ -29,40 +29,68 @@
   min-height: auto;
 }
 
-/* images/logotailorbrands5.svg */
+
+
+
+
+
 /* Actual logo  */
+/* Hosted here https://raw.githack.com/  */
 .portfolio-logo {
-  background: url(https://www.dropbox.com/s/i56ssrspeutnfiz/LogoTailorBrands5.svg?dl=0) 50% no-repeat;
+  background: url(https://gist.githack.com/DjangoAddict/fb1f811b0fbcdc81674f91f72fd68bc4/raw/94d824ce35529ecf2e6a3a161776268a1dad16b5/logo.svg) 50% no-repeat;
   background-size: cover;
   height: 150px;
   width: 150px;
   margin: auto auto 10px;
 }
 
-
-/* my attempt at logo edit  */
-/* img.banner-logo:hover {
-  background: 50% no-repeat;
-}
-
+/* Hover code https://www.w3docs.com/snippets/css/how-to-change-the-color-of-png-image-using-css.html */
 .portfolio-logo:hover {
-  fill:red;
-}
-
-.portfolio-logo:hover,
-.portfolio-logo:focus {
-  /* filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%); */
-}
-.banner-logo:hover {
-  background: 50% no-repeat;
-  fill: red;
-}
-
-svg: hover {
-  fill: red;
+  filter: sepia(100%);
+  -webkit-filter: sepia(100%);
 }
 
 /* end of logo code  */
+
+/* Social Media Edits  */
+
+.social_media {
+  position: absolute;
+  left: 2%;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social_media a {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 2px 0px;
+  color: white !important;
+}
+
+.social_media i {
+  position: relative;
+  left: -13px;
+}
+
+.contact_and_email {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+
+.newDiv.social_media {
+  left: 15%;
+  top: 80 px;
+}
+
+
+
+
+/* End of Social Media / Contact EDIT  */
 
 .is-compact .portfolio-logo {
   height: 90px;
