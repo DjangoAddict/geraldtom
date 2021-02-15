@@ -29,13 +29,16 @@
   min-height: auto;
 }
 
-
-
-
-
-
 /* Actual logo  */
-/* Hosted here https://raw.githack.com/  */
+/* .portfolio-logo {
+  background: url(images/logotailorbrands5.svg) 50% no-repeat;
+  background-size: cover;
+  height: 175px;
+    margin: auto auto 10px;
+    width: 300px;
+} */
+
+
 .portfolio-logo {
   background: url(https://gist.githack.com/DjangoAddict/fb1f811b0fbcdc81674f91f72fd68bc4/raw/94d824ce35529ecf2e6a3a161776268a1dad16b5/logo.svg) 50% no-repeat;
   background-size: cover;
@@ -44,16 +47,31 @@
   margin: auto auto 10px;
 }
 
-/* Hover code https://www.w3docs.com/snippets/css/how-to-change-the-color-of-png-image-using-css.html */
+
 .portfolio-logo:hover {
   filter: sepia(100%);
   -webkit-filter: sepia(100%);
 }
 
-/* end of logo code  */
+/* img.banner-logo {
+  height: 100%;
+  width: 100%;
+} */
 
-/* Social Media Edits  */
+/* img.banner-logo:hover, img.banner-logo:focus {
+    filter: invert(16%) sepia(100%) saturate(7030%) hue-rotate(2deg) brightness(107%) contrast(115%);
+} */
 
+.banner-logo:hover {
+  background: 50% no-repeat;
+  fill: red;
+}
+
+
+/* END Actual logo  */
+
+
+/* Social Media Positioning  */
 .social_media {
   position: absolute;
   left: 2%;
@@ -81,50 +99,22 @@
   top: 100px;
 }
 
+.contact_and_email a {
+  text-decoration: none;
+  font-size: 25px;
+}
 
 .newDiv.social_media {
   left: 15%;
   top: 80 px;
 }
 
-/* End of Social Media / Contact EDIT  */
-
-
-/* Other Social Media Edits  */
-
-.contact_and_email  {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 20px 0px;
-  top: 0px;
-}
-
-.contact_and_email a {
-  font-size: 20px;
-  margin: 0 20px;
-}
-
-.social_media.social_media_border {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  left: unset;
-}
-
-.newDiv.social_media i {
-  left: unset;
-}
-.newDiv.social_media {
-  left: 0;
-}
-
-/* End Social Media Edits pt2  */
 
 
 
+
+
+/* end of logo code  */
 
 .is-compact .portfolio-logo {
   height: 90px;
@@ -256,4 +246,46 @@ img.article-image {
 footer {
   background-image: url(images/footer-background.png);
   background-size: cover;
+}
+
+
+/* Mobile Friendly  */
+@media only screen and (max-width: 767px) {
+  .social_media {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0px;
+    top: 0px;
+}
+
+.contact_and_email  {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0px;
+  top: 0px;
+}
+
+.contact_and_email a {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.social_media.social_media_border {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: unset;
+}
+
+.newDiv.social_media i {
+  left: unset;
+}
+.newDiv.social_media {
+  left: 0;
+}
 }
