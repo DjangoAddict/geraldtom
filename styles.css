@@ -56,11 +56,13 @@
   margin: auto auto 10px;
 }
 
-
 .portfolio-logo:hover {
+  fill:red;
+}
+/* .portfolio-logo:hover {
   filter: sepia(100%);
   -webkit-filter: sepia(100%);
-}
+} */
 
 /* img.banner-logo {
   height: 100%;
