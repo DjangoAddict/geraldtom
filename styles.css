@@ -61,6 +61,12 @@
   -webkit-filter: sepia(50%);
 } */
 
+.portfolio-logo:hover {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+
 /* img.banner-logo {
   height: 100%;
   width: 100%;
