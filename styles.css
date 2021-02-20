@@ -67,19 +67,7 @@
 }
 
 
-/* img.banner-logo {
-  height: 100%;
-  width: 100%;
-} */
 
-/* img.banner-logo:hover, img.banner-logo:focus {
-    filter: invert(16%) sepia(100%) saturate(7030%) hue-rotate(2deg) brightness(107%) contrast(115%);
-} */
-
-.banner-logo:hover {
-  background: 50% no-repeat;
-  fill: red;
-}
 
 
 /* END Actual logo  */
