@@ -39,15 +39,6 @@
 } */
 
 
-/* .portfolio-logo {
-  background: url(https://gist.githack.com/DjangoAddict/fb1f811b0fbcdc81674f91f72fd68bc4/raw/94d824ce35529ecf2e6a3a161776268a1dad16b5/logo.svg) 50% no-repeat;
-  background-size: cover;
-  height: 150px;
-  width: 150px;
-  margin: auto auto 10px;
-} */
-
-
 .portfolio-logo {
   background: url(https://gistcdn.githack.com/DjangoAddict/96718af0fc69b810a990230b16b39cff/raw/3558e9fcf6cd3ad144798d4877d4870edcfba0e6/finallylogo.svg) 50% no-repeat;
   background-size: cover;
@@ -56,10 +47,7 @@
   margin: auto auto 10px;
 }
 
-/* .portfolio-logo:hover {
-  filter: sepia(50%);
-  -webkit-filter: sepia(50%);
-} */
+
 
 .portfolio-logo:hover {
   filter: invert(75%);
@@ -67,10 +55,11 @@
 }
 
 
-
-
-
 /* END Actual logo  */
+
+
+
+
 
 
 /* Social Media Positioning  */
@@ -117,7 +106,7 @@
 .see_button {
   position: absolute;
   right: 2%;
-  top: 60px;
+  bottom: 60px;
   display: flex;
   flex-direction: column;
 }
